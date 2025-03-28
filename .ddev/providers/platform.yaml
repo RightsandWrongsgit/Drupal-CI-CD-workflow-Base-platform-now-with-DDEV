@@ -1,4 +1,4 @@
-#ddev-generated
+# ddev-generated plaform.yaml file
 # Platform.sh provider configuration. This works out of the box, but can be edited to add
 # your own preferences. If you edit it, remove the `ddev-generated` line from the top so
 # that it won't be overwritten.
