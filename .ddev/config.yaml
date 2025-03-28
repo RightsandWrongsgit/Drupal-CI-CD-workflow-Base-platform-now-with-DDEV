@@ -1,17 +1,22 @@
-name: Initial-Test-of-Platform-CI-with-Lando
+name: DRUPAL CI/CD Workflow Base platform now with DDEV
 type: drupal10
-docroot: web/
+docroot: web
 php_version: "8.3"
 webserver_type: nginx-fpm
+router_http_port: "8000"
+router_https_port: "8443"
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
 database:
     type: mariadb
-    version: "10.11"
+    version: "10.3"
 use_dns_when_possible: true
 composer_version: "2"
-web_environment: []
+web_environment:
+    - PLATFORM_PROJECT=2ygxd5balkqjg
+    - PLATFORM_ENVIRONMENT=main
+nodejs_version: "16"
 corepack_enable: false
 
 # Key features of DDEV's config.yaml:
