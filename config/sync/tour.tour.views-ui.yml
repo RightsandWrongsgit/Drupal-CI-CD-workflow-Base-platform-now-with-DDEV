@@ -92,3 +92,4 @@ tips:
     position: right
     selector: '#preview-submit'
     body: 'Show a preview of the view output.'
+
