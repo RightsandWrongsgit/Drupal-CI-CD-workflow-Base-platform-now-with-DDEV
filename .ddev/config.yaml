@@ -1,4 +1,4 @@
-name: DRUPALplatformDDEV
+name: DRUPAL-CI-CD-workflow-Base-platform-now-with-DDEV
 type: drupal10
 docroot: web
 php_version: "8.3"
